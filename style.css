@@ -1,0 +1,41 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table, tr, td, th {
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.btn {
+    padding: 10px;
+    background: teal;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn:active {
+    transform:scale(0.95)
+}
+
+.group-btn { 
+    margin: 10px;
+}
